@@ -4,9 +4,9 @@ The DORA heartbeat telemetry includes satellite and RBE payload health status an
 
 Each full heartbeat was separated into 2 packets, after the "payload_filter_bank_power_ch2" variable. Heartbeats were transmitted on 2-GFSK modulation scheme. The full list of observations can be found on the [SatNOGS database for DORA](https://db.satnogs.org/satellite/QZRL-4914-4557-2700-9931). Instructions for demodulating data from the SatNOGS database can be found in DemodulatingDORAdata.pdf.
 
-After demodulating, hex data can be decoded with the [DORA decoder](https://github.com/DylanL7/dora-data). This decodes the first and second half packets separately, and adds "observation_time", "altitude", "lat", "long" to both packets, and an additional "timestamp" to the second half packet. The output from the decoder are the heartbeat_firsthalf.csv and heartbeat_secondhalf.csv files in this repo.
+After demodulating, hex data can be decoded with the [DORA decoder](https://github.com/DylanL7/dora-data). This decodes the first and second half packets separately, and adds "observation_time", "altitude", "lat", "long" to both packets, and an additional "timestamp" to the second half packet. The output from the decoder are the heartbeat_firsthalf.csv and heartbeat_secondhalf.csv files in this repo. These files are not exhaustive of all the heartbeat packets observed from DORA over its seven-week missions.
 
-Additional data processing with RBEanalysis.py matches the first half to the second half and throws out unmatched packet halves, any packets before the deployement of the RBE antenna, and any repeated or unupdated packets. The final RBE data can be found in RBEdata.csv. Plotting of this data can also be found in RBEanalysis.py.
+Additional data processing with RBEanalysis.py matches the first half to the second half, throws out unmatched packet halves and any packets before the deployement of the RBE antenna, and calibrates and keeps only the recently updated data taken by the RBE coarseband spectrometer (the 'filterbank'). The final RBE data can be found in RBEdata.csv.
 
 Data from pre-flight laboratory testing is also included here, in preflight-data/.
 
