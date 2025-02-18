@@ -10,6 +10,6 @@ Additional data processing with RBEanalysis.py matches the first half to the sec
 
 Associated publications:
 
-Zhao, Y., Jacobs, D. C., Samson, T., Bowman, J., and Lalonde, M.-O. R. Building a global map of low frequency radio interference from orbit with DORA. Radio Science, RFI 2024 Special Edition. [in press, expected Mar 2025.](https://doi.org/10.22541/essoar.173884449.96853776/v1)
+Zhao, Y., Jacobs, D. C., Samson, T., Bowman, J., and Lalonde, M.-O. R. Building a global map of low frequency radio interference from orbit with DORA. Radio Science, RFI 2024 Special Edition. [in press.](https://doi.org/10.22541/essoar.173884449.96853776/v1)
 
-Zhao, Y., Jacobs, D. C., Bowman, J., Samson, T. and Lalonde, M.-O. R. Pathfinding Low Frequency Radio Astronomy with the DORA Radio Background Experiment. 2025 IEEE Aerospace Conference Proceedings. in press, expected Mar 2025.
+Zhao, Y., Jacobs, D. C., Bowman, J., Samson, T. and Lalonde, M.-O. R. Pathfinding Low Frequency Radio Astronomy with the DORA Radio Background Experiment. 2025 IEEE Aerospace Conference Proceedings. in press.
