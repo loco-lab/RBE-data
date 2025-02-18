@@ -6,7 +6,7 @@ Each full heartbeat was separated into 2 packets, after the "payload_filter_bank
 
 After demodulating, hex data can be decoded with the [DORA decoder](https://github.com/DylanL7/dora-data). This decodes the first and second half packets separately, and adds "observation_time", "altitude", "lat", "long" to both packets, and an additional "timestamp" to the second half packet. The output from the decoder are the heartbeat_firsthalf.csv and heartbeat_secondhalf.csv files in this repo.
 
-Additional data processing with RBEanalysis.py matches the first half to the second half and throws out unmatched packet halves, any packets before the deployement of the RBE antenna, and any repeated or unupdated packets. The final RBE data can be found in RBEhearbeat.csv. Plotting of this data can also be found in RBEanalysis.py.
+Additional data processing with RBEanalysis.py matches the first half to the second half and throws out unmatched packet halves, any packets before the deployement of the RBE antenna, and any repeated or unupdated packets. The final RBE data can be found in RBEdata.csv. Plotting of this data can also be found in RBEanalysis.py.
 
 Associated publications:
 
