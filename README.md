@@ -8,6 +8,8 @@ After demodulating, hex data can be decoded with the [DORA decoder](https://gith
 
 Additional data processing with RBEanalysis.py matches the first half to the second half and throws out unmatched packet halves, any packets before the deployement of the RBE antenna, and any repeated or unupdated packets. The final RBE data can be found in RBEdata.csv. Plotting of this data can also be found in RBEanalysis.py.
 
+Data from pre-flight laboratory testing is also included here, in preflight-data/.
+
 Associated publications:
 
 Zhao, Y., Jacobs, D. C., Samson, T., Bowman, J., and Lalonde, M.-O. R. Building a global map of low frequency radio interference from orbit with DORA. Radio Science, RFI 2024 Special Edition. [in press.](https://doi.org/10.22541/essoar.173884449.96853776/v1)
